@@ -1,4 +1,5 @@
 package javaproject2;
+
 import java.util.Scanner;
 
 abstract class DesertItem {
@@ -120,15 +121,15 @@ public class Assignment2Q7 {
 		if (choice == 1) {
 			if (can.items > a) {
 				System.out.println("Order Place!");
-				
-				} else {
+
+			} else {
 				System.out.println(a + " Candy is not avalaible!");
 			}
 			selectRoles();
 		} else if (choice == 2) {
 			if (coo.items > a) {
 				System.out.println("Order Place!");
-				
+
 			} else {
 				System.out.println(a + " Cookie is not avalaible!");
 			}
